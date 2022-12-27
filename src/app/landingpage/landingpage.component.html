@@ -1,0 +1,82 @@
+<h1>THIS IS INVENTORY TABLE</h1>
+<div class="main">
+    <table>
+        <thead>
+            <tr>
+                <td scope="col" (click)="sortData()" >Product Id</td>
+                <td scope="col" (click)="codeData()">Product code</td>
+                <td scope="col" (click)="nameData('productName')">Product Name</td>
+                <td scope="col" (click)="CategoryData('productCategory')">Product Category</td>
+                <td scope="col" (click)="priceData()">Product price</td>
+
+            </tr>
+        </thead>
+        <tbody *ngFor="let users of user">
+            <tr>
+                <td>{{users.id }}</td>
+                <td>{{users.productCode}}</td>
+                <td>{{users.productName}}</td>
+                <td>{{users.productCategory}}</td>
+                <td>{{users.productPrice}}</td>
+
+            </tr>
+        </tbody>
+
+
+    </table>
+</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<footer class="footer">
+
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="">about us</a></li>
+                    <li><a href="">our service</a> </li>
+                    <li><a href="">privacy policy</a></li>
+                    <li><a href="">afiilate program</a></li>
+                </ul>
+
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Shipping</a></li>
+                    <li><a href="">returns</a></li>
+                    <li><a href="">order status</a></li>
+                    <li><a href="">payment option</a></li>
+                </ul>
+
+            </div>
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="">electronics</a></li>
+                    <li><a href="">vehical</a></li>
+                    <li><a href="">stationery</a></li>
+
+                </ul>
+
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-link"> 
+                
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+</footer>

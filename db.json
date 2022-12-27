@@ -1,0 +1,87 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productCode": "10",
+      "productName": "Mobile",
+      "productCategory":"Electronic",
+      "productPrice":"5000"
+    },
+    {
+      "id": 2,
+      "productCode": "20",
+      "productName": "charger",
+      "productCategory":"Electronic",
+      "productPrice":"5000"
+    },
+    {
+      "id": 3,
+      "productCode": "30",
+      "productName": "bike",
+      "productCategory":"vehical",
+      "productPrice":"50000"
+    },
+    {
+      "id": 4,
+      "productCode": "40",
+      "productName": "Mobile",
+      "productCategory":"Electronic",
+      "productPrice":"8000"
+    },
+    {
+      "id": 5,
+      "productCode": "50",
+      "productName": "Mobile",
+      "productCategory":"Electronic",
+      "productPrice":"5000"
+    },
+    {
+      "id": 6,
+      "productCode": "60",
+      "productName": "bag",
+      "productCategory":"stationery",
+      "productPrice":"5000"
+    },
+    {
+      "id": 7,
+      "productCode": "70",
+      "productName": "car",
+      "productCategory":"vehical",
+      "productPrice":"500000"
+    },
+    {
+      "id": 8,
+      "productCode": "80",
+      "productName": "fan",
+      "productCategory":"Electronic",
+      "productPrice":"5000"
+    },
+    {
+      "id": 9,
+      "productCode": "90",
+      "productName": "pen",
+      "productCategory":"stationery",
+      "productPrice":"70"
+    },
+    {
+      "id": 10,
+      "productCode": "100",
+      "productName": "books",
+      "productCategory":"stationery",
+      "productPrice":"500"
+    }
+    
+
+
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
